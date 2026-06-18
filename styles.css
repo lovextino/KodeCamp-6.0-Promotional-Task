@@ -20,7 +20,8 @@ background:white;
 }
 
 .logo img{
-width:55px;
+width:150px;
+height: auto;
 }
 
 .nav-links{
@@ -57,34 +58,36 @@ background:#25b0aa;
 color:white;
 }
 
-.hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-    padding:40px 80px;
-
-    min-height:650px;
-
-    overflow:hidden;
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    min-height: 650px;
+    overflow: hidden;
 }
 
-.hero-text{
-    width:45%;
+
+.hero-text {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.hero-text h1{
-    font-size:88px;
-    font-weight:800;
-    line-height:1;
-    margin-bottom:20px;
+.hero-text h1 {
+    font-size: 3.5rem;
+    line-height: 1.05;
+    font-weight: 800;
+    margin-bottom: 1rem;
 }
 
-.hero-text p{
-    font-size:18px;
-    line-height:1.6;
-    max-width:500px;
-    margin-bottom:30px;
+
+.hero-text p {
+    max-width: 480px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 .hero-image{
@@ -118,11 +121,15 @@ color:white;
     max-width: none;
     position: relative;
     right: 80px;
+    height: auto;
 }
 
-.store-buttons{
-display:flex;
-gap:15px;
+.store-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
 }
 
 .store-buttons button{
@@ -134,10 +141,11 @@ border-radius:8px;
 cursor:pointer;
 }
 
-.store-buttons img{
-    width:330px;
-    height:auto;
-    display:block;
+.store-buttons img {
+    width: 360px;
+    height: auto;
+    display: block;
+    margin-left: -70px; 
 }
 
 .features{
